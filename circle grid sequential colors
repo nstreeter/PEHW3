@@ -1,0 +1,17 @@
+size(500,500);
+background(0);
+colorMode(HSB);
+
+int r=0;
+int b=0;
+int g=0;
+
+for (int x = 0; x < 475; x=x+25) {
+  for (int y = 0; y < 475; y=y+25) {
+    
+fill(y/2,x*6,255);
+
+    ellipse(x+25,y+25,20,20);
+
+  }
+}
