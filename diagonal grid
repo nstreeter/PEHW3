@@ -1,0 +1,9 @@
+size(500,500);
+background(0);
+colorMode(HSB);
+for (int x = 0; x < 475; x=x+25) {
+  for (int y = 0; y < 475; y=y+25) {
+    stroke(255);
+    line(x+25,y+25,y+25,x+25);
+  }
+}
